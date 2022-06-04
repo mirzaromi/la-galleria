@@ -1,0 +1,201 @@
+body {
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+    background-color: #EFEAD8;
+    ;
+}
+
+/* Navbar */
+
+.navbar {
+    width: auto;
+    height: 103px;
+    background-color: #74959A;
+}
+
+.navbar-block {
+    display: flex;
+    padding: 25px 50px;
+}
+
+
+.navbar-logo {
+    width: 300px;
+    height: 43.82px;
+    left: 45px;
+    top: 25px;
+
+}
+
+.navbar-text ul li {
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+    font-weight: 900;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* HOME */
+
+.welcome-h1 {
+    text-align: center;
+    font-size: 32px;
+
+}
+
+.welcome-img {
+    width: 1268px;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+
+}
+
+/* about us */
+.aboutus-text {
+    text-align: center;
+}
+
+.aboutus p {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Watch-us */
+.watch-us-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.watch-us h3 {
+    text-align: center;
+}
+
+.youtube {
+    margin: 30px 30px 50px 30px;
+}
+
+footer {
+    width: auto;
+    height: 78px;
+    background: #BB6464;
+}
+
+footer div {
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+hr {
+    margin-top: 60px;
+    border: solid 3px black;
+}
+
+/* Gallery */
+
+.gallery-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0px;
+}
+
+.gallery h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.gallery-img {
+    width: 400px;
+    height: 250px;
+    margin: 8px;
+}
+
+/* Login */
+.login-block {
+    width: 1098px;
+    height: 562px;
+    background-color: #C3DBD9;
+    margin: 100px auto;
+    padding: 40px;
+}
+
+.login-img {
+    display: block;
+    margin: auto;
+    padding: 20px 0px;
+    width: 490px;
+    height: auto;
+}
+
+.login h4 {
+    font-size: 32px;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.login-hr {
+    margin-top: 30px;
+    border: solid 3px black;
+    width: 99.5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+
+}
+
+.form input,
+label {
+    display: block;
+    margin: 15px;
+    font-size: 18px;
+}
+
+#username,
+#password,
+#fullname,
+#email,
+#birthdate {
+    width: 50%;
+    height: auto;
+    padding: 15px 30px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.login-btn {
+    margin: 10px 0px;
+    width: 100%;
+    padding: 20px;
+    background: #9A86A4;
+    border: 1px solid #B1BCE6;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Merriweather';
+}
+
+/* register */
+.register-block {
+    width: 1098px;
+    height: auto;
+    background-color: #C3DBD9;
+    margin: 100px auto;
+
+}
