@@ -197,5 +197,21 @@ label {
     height: auto;
     background-color: #C3DBD9;
     margin: 100px auto;
+    padding: 40px;
+}
 
+.register-gender {
+    display: block;
+}
+
+label[for="male"], label[for="female"], input[type="radio"] {
+    display: inline-block;
+}
+
+input[type="radio"]:first-of-type {
+    margin-left: 0px;
+}
+
+input[type="radio"]:last-of-type {
+    margin-left: 80px;
 }
