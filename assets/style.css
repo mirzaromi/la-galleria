@@ -223,6 +223,7 @@ input[type="radio"]:last-of-type {
 /* scroll-bar */
 ::-webkit-scrollbar {
     width: 10px;
+    
 }
 
 
@@ -233,10 +234,12 @@ input[type="radio"]:last-of-type {
 
 ::-webkit-scrollbar-thumb {
     background: #888;
+    border-radius: 5px;
 }
 
 
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+    border-radius: 5px;
 }
 
