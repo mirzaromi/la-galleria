@@ -11,6 +11,9 @@ body {
     width: auto;
     height: 103px;
     background-color: #74959A;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
 
 .navbar-block {
