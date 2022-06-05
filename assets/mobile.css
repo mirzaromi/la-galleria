@@ -7,6 +7,48 @@
         display: block;
         margin: 0px auto;
     }
+
+    .aboutus {
+        padding: 10px 20px;
+    }
+
+    /* Gallery */
+    .gallery-img {
+        display:  block;
+        margin: 15px auto;
+    }
+
+    /* Login */
+    .login-block {
+        width: auto;
+        height: 562px;
+        background-color: #C3DBD9;
+        margin: 100px 20px;
+        padding: 20px;
+    }
+
+    .login-img {
+        display: block;
+        margin: auto;
+        padding: 20px 0px;
+        width: 70%;
+        height: auto;
+    }
+
+    .login h4 {
+        font-size: 28px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    /* Register */
+    .register-block {
+        width: auto;
+        height: auto;
+        background-color: #C3DBD9;
+        margin: 60px 20px;
+        padding: 40px;
+    }
 }
 
 @media only screen and (max-width: 425px) {
