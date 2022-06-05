@@ -1,0 +1,75 @@
+/* Mobile View */
+
+@media only screen and (max-width: 768px) {
+    .welcome-img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 0px auto;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    /* index */
+    .navbar {
+        width: 100%;
+        height: 130px;
+        background-color: #74959A;
+    }
+    
+    .navbar-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 50px;
+    }
+
+    .navbar-text ul {
+        padding: 0px;
+    }
+
+    .aboutus {
+        padding: 10px 20px;
+    }
+
+    .youtube {
+        width: 90%;
+        /* height: auto; */
+        /* margin: 30px 30px 50px 30px; */
+    }
+
+    /* Login */
+
+    .login-block {
+        width: 80%;
+        height: 562px;
+        background-color: #C3DBD9;
+        margin: 100px 20px;
+        padding: 20px;
+    }
+
+    .login-img {
+        display: block;
+        margin: auto;
+        padding: 20px 0px;
+        width: 80%;
+        height: auto;
+    }
+
+    .login h4 {
+        font-size: 22px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    /* Register */
+
+    .register-block {
+        width: auto;
+        height: auto;
+        background-color: #C3DBD9;
+        margin: 60px 20px;
+        padding: 40px;
+    }
+
+}

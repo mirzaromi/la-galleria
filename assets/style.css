@@ -52,7 +52,6 @@ body {
     height: auto;
     display: block;
     margin: 0px auto;
-
 }
 
 /* about us */
@@ -204,7 +203,9 @@ label {
     display: block;
 }
 
-label[for="male"], label[for="female"], input[type="radio"] {
+label[for="male"],
+label[for="female"],
+input[type="radio"] {
     display: inline-block;
 }
 
@@ -215,3 +216,24 @@ input[type="radio"]:first-of-type {
 input[type="radio"]:last-of-type {
     margin-left: 80px;
 }
+
+/* scroll-bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
